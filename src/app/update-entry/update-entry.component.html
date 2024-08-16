@@ -1,0 +1,31 @@
+<h2 mat-dialog-title>
+    Update entry
+</h2>
+<mat-dialog-content [formGroup]="form">
+    <mat-form-field class="new-entry-field">
+        <input matInput placeholder={} formControlName="description">
+    </mat-form-field>
+    <br>
+    <mat-form-field class="new-entry-field">
+        <mat-select placeholder="Enty type" formControlName="isExpense">
+            @for (type of types; track type) {
+            <mat-option [value]="type.value">{{type.display}}</mat-option>
+            }
+        </mat-select>
+    </mat-form-field>
+    <br>
+    <mat-form-field class="new-entry-field">
+        <input matInput type="number" min="1" placeholder="Entry value" formControlName="value">
+    </mat-form-field>
+
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-stroked-button class="danger-btn" (click)="close()">Close</button>
+    <button mat-stroked-button class="save" (click)="save()">Save</button>
+</mat-dialog-actions>
+
+@if (isLoading) {
+    <div class="spinner-container">
+        <mat-spinner></mat-spinner>
+    </div>
+}

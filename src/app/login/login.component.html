@@ -1,0 +1,18 @@
+@if (isLoading) {
+<div class="loading-container">
+    <div class="spinner-overlay">
+        <mat-spinner></mat-spinner>
+    </div>
+</div>
+}
+<mat-card>
+    <span>Sign in</span>
+    <br>
+    <mat-form-field>
+        <input matInput placeholder="Username" [(ngModel)]="loginData.userName" type="text">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Password" [(ngModel)]="loginData.password" type="password">
+    </mat-form-field>
+    <button mat-raised-button (click)="login()">Login</button>
+</mat-card>

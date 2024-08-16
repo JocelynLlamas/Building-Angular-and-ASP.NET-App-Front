@@ -1,0 +1,47 @@
+mat-card {
+    width: 40%;
+    margin: 5% 30% 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+}
+
+loading-container {
+    position: relative;
+}
+
+mat-form-field{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.spinner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.spinner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d7e3ff95;
+    z-index: 10;
+}
+
+/* For change de color */
+::ng-deep .mat-mdc-progress-spinner circle,
+.mat-spinner circle {
+    stroke: var(--third-color);
+}

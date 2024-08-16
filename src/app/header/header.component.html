@@ -1,0 +1,14 @@
+<mat-toolbar>
+    <button mat-button routerLink="/" style="color: var(--secondary-color);">App</button>
+    <button mat-button routerLink="/entries" style="color: var(--secondary-color);">Entries</button>
+    <button mat-button routerLink="/new-entry" style="color: var(--secondary-color);">Create entry</button>
+    <span style="flex: 1 1 auto;"></span>
+    @if (auth.isAuthenticated) {
+    <button mat-button style="color: var(--secondary-color);">Welcome {{auth.getUserName}}</button>
+    <button mat-button style="color: var(--secondary-color);" (click)="auth.logout()">Logout</button>
+    }
+    @if (!auth.isAuthenticated) {
+    <button mat-button routerLink="/register" style="color: var(--secondary-color);">Register</button>
+    <button mat-button routerLink="/login" style="color: var(--secondary-color);">Login</button>
+    }
+</mat-toolbar>

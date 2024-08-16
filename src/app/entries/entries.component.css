@@ -1,0 +1,36 @@
+mat-form-field {
+    margin: 2%;
+    width: 50%;
+}
+
+input {
+    width: 50%;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+.edit {
+    background-color: var(--warning-color);
+    color: white;
+    transition: all 0.5s;
+}
+
+.edit:hover {
+    background-color: #d7a013;
+}
+
+.danger-btn {
+    color: var(--danger-color);
+    border: 1px var(--danger-color) solid;
+    transition: all 0.5;
+}
+
+.danger-btn:hover {
+    background-color: rgba(153, 27, 27, 0.286);
+}

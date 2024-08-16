@@ -1,0 +1,27 @@
+@if (isLoading) {
+<div class="loading-container">
+    <div class="spinner-overlay">
+        <mat-spinner></mat-spinner>
+    </div>
+</div>
+}
+<mat-card>
+    <span>Create new entry</span>
+    <form [formGroup]="entryForm" (ngSubmit)="onSubmit()">
+        <mat-form-field class="new-entry-field">
+            <input matInput placeholder="Entry description" formControlName="description">
+        </mat-form-field>
+        <mat-form-field class="new-entry-field">
+            <mat-select placeholder="Enty type" formControlName="isExpense">
+                @for (type of types; track type) {
+                <mat-option [value]="type.value">{{type.display}}</mat-option>
+                }
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="new-entry-field">
+            <input matInput type="number" min="1" placeholder="Entry value" formControlName="value">
+        </mat-form-field>
+
+        <button mat-raised-button [disabled]="!entryForm.valid">Create new</button>
+    </form>
+</mat-card>

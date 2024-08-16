@@ -1,0 +1,17 @@
+.danger-btn {
+    /* background-color: var(--danger-color); */
+    color: var(--danger-color);
+    border: 1px var(--danger-color) solid;
+    transition: all 0.5;
+}
+
+.danger-btn:hover {
+    background-color: rgba(153, 27, 27, 0.286);
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

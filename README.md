@@ -1,27 +1,60 @@
-# ExpensesClient
+# 📝 Front-End for Building Angular and ASP.NET Web API Apps
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+This repository contains the front-end code for the project developed during the LinkedIn Learning course **"Building Angular and ASP.NET Web API Apps"**. The course focuses on building a full-stack application using Angular for the front-end and ASP.NET Web API for the back-end.
 
-## Development server
+## 📚 Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [📖 Project Overview](#-project-overview)
+- [✨ Features](#-features)
+- [💻 Technologies Used](#-technologies-used)
+- [🚀 Getting Started](#-getting-started)
+  - [📋 Prerequisites](#-prerequisites)
+  - [🔧 Installation](#-installation)
+  - [🏃 Running the Application](#-running-the-application)
+- [📂 Project Structure](#-project-structure)
+- [📸 Screenshots](#-screenshots)
+- [🔍 Usage](#-usage)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [📧 Contact](#-contact)
 
-## Code scaffolding
+## 📖 Project Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project serves as the front-end for the web application built in the course. The application is designed to manage entries of income and expenses, allowing users to filter, add, update, and delete records. The Angular front-end communicates with the ASP.NET Web API back-end to perform CRUD operations.
 
-## Build
+## ✨ Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- 🔒 User authentication and authorization
+- 📝 CRUD operations on entries (Create, Read, Update, Delete)
+- 🔍 Filtering entries by type (Income, Expense)
+- 📱 Responsive design with Angular Material
+- 🌐 Integration with ASP.NET Web API
 
-## Running unit tests
+## 💻 Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Angular**: Framework used for building the front-end.
+- **Angular Material**: UI component library used for creating a responsive and modern interface.
+- **RxJS**: For reactive programming and handling asynchronous operations.
+- **TypeScript**: Strongly typed programming language used to build Angular applications.
+- **HTML5 & CSS3**: Markup and styling.
+- **Node.js & npm**: Environment and package manager for installing dependencies and running scripts.
 
-## Running end-to-end tests
+## 🚀 Getting Started
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 📋 Prerequisites
 
-## Further help
+Before you begin, ensure you have met the following requirements:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Node.js**: Version 14.x or higher
+- **npm**: Version 6.x or higher (comes with Node.js)
+- **Angular CLI**: Version 12.x or higher (`npm install -g @angular/cli`)
+
+### 🔧 Installation
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+

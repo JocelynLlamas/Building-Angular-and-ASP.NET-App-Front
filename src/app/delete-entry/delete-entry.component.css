@@ -1,0 +1,21 @@
+.danger-btn {
+    background-color: var(--danger-color);
+    color: var(--light-danger-color);
+}
+
+.confirm-btn {
+    background-color: var(--confirm-color);
+    color: var(--light-danger-color);
+}
+
+mat-card{
+    width: 40%;
+    margin: 5% 30% 10%;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

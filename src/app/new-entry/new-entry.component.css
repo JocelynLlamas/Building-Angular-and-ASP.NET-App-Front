@@ -1,0 +1,48 @@
+.new-entry-form {
+    /* width: 80% */
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.new-entry-field {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.new-form-btn {
+    position: relative;
+}
+
+.spinner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+loading-container {
+    position: relative;
+}
+
+.spinner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d7e3ff95;
+    z-index: 10;
+}
+/* For change de color */
+::ng-deep .mat-mdc-progress-spinner circle, .mat-spinner circle {
+    stroke: var(--third-color);
+}

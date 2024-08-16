@@ -1,0 +1,12 @@
+mat-toolbar{
+    font-family: var(--font-main);
+    border-top: 1px #4b5563 solid;
+    background-color: #f3f4f6;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+p{
+    margin: 0 auto;
+}

@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #d7e3ff;
+    --secondary-color: #005cbb;
+    --third-color: #4aacec;
+    --danger-color: #991b1b;
+    --light-danger-color: #f5ebea;
+    --warning-color: #d7a013;
+    --confirm-color: #3ea44a;
+    --font-main: "Outfit", sans-serif;
+    --font-size-large: 24px;
+    --font-optical-sizing: auto;
+
+}
+
+* {
+    font-family: var(--font-main);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-main);
+}
