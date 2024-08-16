@@ -71,20 +71,20 @@ ng serve
 Here are some screenshots of the application:
 
 Register Page
-![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/registerpage.png)
 
 Login Page
-![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/loginpage.png)
 
 Home Page
-![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/homepage.png)
 
 Edit entry Page
-![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/homepage.png)
 
 Delete entry Page
-![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/deletepage.png)
 
 Create entry Page
-![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/createpage.png)
 
