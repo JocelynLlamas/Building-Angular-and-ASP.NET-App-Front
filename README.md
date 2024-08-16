@@ -58,3 +58,12 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 npm install
 
+### 🔧 Installation
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+
