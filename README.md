@@ -14,9 +14,6 @@ This repository contains the front-end code for the project developed during the
 - [📂 Project Structure](#-project-structure)
 - [📸 Screenshots](#-screenshots)
 - [🔍 Usage](#-usage)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [📧 Contact](#-contact)
 
 ## 📖 Project Overview
 
@@ -70,21 +67,32 @@ ng serve
 ## 📸 Screenshots
 Here are some screenshots of the application:
 
-Register Page
+**Register Page**
 ![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/registerpage.png)
 
-Login Page
+**Login Page**
 ![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/loginpage.png)
 
-Home Page
+**Home Page**
 ![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/homepage.png)
 
-Edit entry Page
+**Edit entry Page**
 ![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/homepage.png)
 
-Delete entry Page
+**Delete entry Page**
 ![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/deletepage.png)
 
-Create entry Page
+**Create entry Page**
 ![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/createpage.png)
 
+## 🔍 Usage
+**Filtering Entries**
+To filter the entries based on the type (Income or Expense), enter the desired filter text in the input box with the search icon. The list will automatically update based on the entered criteria.
+
+**Adding a New Entry**
+Click on the "Create Entry" button in the navigation bar to open the form. Fill in the details for the new entry and click "Save". The new entry will be added to the list.
+
+**Editing or Deleting an Entry**
+Each entry in the list has options to edit or delete. Click the edit icon to update the entry or the delete icon to remove it.
+
+## 💻 Building Tomorrow, One Line at a Time.
