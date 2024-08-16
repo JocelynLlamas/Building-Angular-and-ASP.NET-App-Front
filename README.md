@@ -57,13 +57,34 @@ Clone the repository and install the dependencies:
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 npm install
+```
 
-### 🔧 Installation
+### 🏃 Running the Application
 
-Clone the repository and install the dependencies:
+To start the development server, use the following command:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-npm install
+ng serve
+```
+
+## 📸 Screenshots
+Here are some screenshots of the application:
+
+Register Page
+![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+
+Login Page
+![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+
+Home Page
+![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+
+Edit entry Page
+![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+
+Delete entry Page
+![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
+
+Create entry Page
+![App Screenshot](https://github.com/JocelynLlamas/color-extractor-react/blob/main/src/assets/images/Screenshot.png)
 
