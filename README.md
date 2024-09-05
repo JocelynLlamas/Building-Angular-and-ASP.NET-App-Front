@@ -77,7 +77,7 @@ Here are some screenshots of the application:
 ![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/homepage.png)
 
 **Edit entry Page**
-![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/homepage.png)
+![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/updateModal.png)
 
 **Delete entry Page**
 ![App Screenshot](https://github.com/JocelynLlamas/Building-Angular-and-ASP.NET-App-Front/blob/main/src/assets/images/deletepage.png)
